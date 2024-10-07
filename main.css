@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf) format(truetype);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Bold.ttf) format(truetype);
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-MediumItalic.ttf) format(truetype);
+    font-style: italic;
+}
+*{
+    font-family: Roboto, sans-serif;
+}
+header{
+    height: 125px;
+    background-color: rgb(31, 41, 54);
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+#headerTop{
+    height: 50%;
+    text-align: center;
+    padding-top: 20px;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+#headerBottom{
+    height: 50%;
+    display: flex;
+}
+#headerLeft{
+    width: 40%;
+    text-align: right;
+    padding-right: 10px;
+}
+#headerCentre{
+    width: 20%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#headerRight{
+    width: 40%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+main{
+    height: 1200px;
+}
+section{
+    width: 100%;
+    color: white;
+}
+#firstSection{
+    background-color: rgb(31, 41, 54);
+    height: 25%;
+    display: flex;
+}
+#firstLeft{
+    width: 50%;
+    height: 100%;
+}
+#textContainer{
+    margin-top: 75px;
+    margin-left: 35%;
+    margin-right: 15px;
+}
+button{
+    color: white;
+    background-color: #3782F5;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+#firstRight{
+    width: 50%;
+    height: 100%;
+}
+#imageContainer{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    max-width: 500;
+    max-height: 300;
+}
+
+#secondSection{
+    height: 40%;
+    color: rgb(31, 41, 54);
+    text-align: center;
+}
+#secondSectionTop{
+    height: 16%;
+}
+#section2header{
+    padding-top: 20px;
+}
+#secondSectionMiddle{
+    height: 42%;
+    display: flex;
+    justify-content: center;
+}
+#middleContainer{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+}
+#secondSectionBottom{
+    height: 42%;
+    display: flex;
+    justify-content: center;
+}
+#bottomContainer{
+    width: 60%;
+    height: 100%;
+}
+#thirdSection{
+    background-color: lightgray;
+    height: 20%;
+    color: rgb(31, 41, 54);
+}
+#text{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    font-size: 28px;
+    font-style: italic;
+}
+#quote{
+    text-align: right;
+    padding-right: 20%;
+}
+#fourthSection{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+#cta{
+    background-color: #3782F5;
+    padding-top: 10px;
+    margin-top: 30px;
+    height: 45%;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+#ctaText{
+    height: 100%;
+    width: 70%;
+    margin: 0;
+    padding: 10px;
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+#ctaPar{
+    margin: 0;
+    padding: 0;
+}
+#ctaButton{
+    border: solid white 2px;
+}
+footer{
+    height: 80px;
+    background-color: rgb(31, 41, 54);
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
